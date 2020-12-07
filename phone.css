@@ -1,0 +1,136 @@
+/*CSS SETTING*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo 2';
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+    margin: auto;
+    margin-left: -15px;
+    margin-top: 5px;
+    text-align: center;
+}
+#navbar ul li{
+    list-style: none;
+    display: blok;
+    margin: 0px;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 13px;
+    border-radius: 13px;
+} 
+.btn1 button{
+    margin: 2px;
+    PADDING: 5PX 0PX;
+    BORDER-RADIUS: 15PX;
+    background-color: cadetblue;
+    border:1px solid white;
+    margin-bottom: 5px;
+
+}
+.btn1 button a{
+    text-decoration: none;
+    font-size: 8px;
+    PADDING: 0PX 0PX;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+    color: honeydew;
+}
+.logobox{
+    padding: 0px;
+    overflow: hidden;
+    
+}
+.textbox h1{
+    text-shadow: black 1px 1px;
+    font-size: 30px;
+    text-align: center;
+}
+.textbox ul li{
+    text-shadow: black 1px 1px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.textbox{
+    margin-left: -66px;
+    background-color: rgba(196, 98, 0, 0.849);
+    width: 100%;
+    border-radius: 2px;
+    color: white;
+    
+}
+.design{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    overflow-x: hidden;
+    width: 60%;
+    text-align: center;
+}
+.design h3{
+    font-size: .6rem;
+}
+#p1{
+    margin-top: 35px;
+    width: 60px;
+    padding: 0px;
+}
+#p2{
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+}
+.hbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.b4 a img{
+    height: 50px;
+    width: 50px;
+    margin: 1px 10px;
+}
+#b41{
+    margin-left: -50px;
+  
+}
+.stext h1{
+    font-size: 1.5rem;
+}
+.ename2{
+    position: relative;
+    left: 50%;
+    width: 100%;
+    min-width: 30%;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+#bgn{
+    margin-left: 42%;
+}
+#bgn button{
+    border: 1px solid black;
+    text-align: center;
+}
+#bgn button a{
+    font-size: 14px;   
+}

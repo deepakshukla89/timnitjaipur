@@ -1,0 +1,140 @@
+/*CSS SETTING*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo 2';
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/*header bg*/
+#navbar::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    z-index: -1;
+    opacity: .7;
+}
+/*List style*/
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none  ;
+    display: blok;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 23px;
+    font-size: 19px;
+    border-radius: 13px;
+} 
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    transition: .5s;
+} 
+/*NavBar: btn*/
+.btn1 button{
+    margin: 5% 30%;
+    PADDING: 7PX 12PX;
+    BORDER-RADIUS: 15PX;
+    background-color: cadetblue;
+    border:1px solid white;
+
+}
+.btn1 button a{
+    text-decoration: none;
+    font-size: 90%;
+    margin: 12px 10px;
+    PADDING: 7PX 0PX;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+    color: honeydew;
+}
+.btn1 button:hover{
+    background-color: rgba(94, 218, 201, 0.39);
+    color: black;
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 35px;
+}
+.heading{
+    text-align: center;
+    font-size: 35px;
+}
+#p
+#part3{
+    z-index: -3;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgba(145, 112, 75, 0.616);
+    border-top: 1px solid rgba(145, 112, 75, 0.616);
+    box-shadow: black 1px 1px 3px;
+    
+   
+}
+#heading2{
+    text-align: center;
+    font-size: 35px;
+}
+.hbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.sgtext{
+    color: black;
+    text-align: center;
+    text-shadow: blanchedalmond 1px 0px 1px;
+}
+.photo{
+    display:flex;
+    flex-direction: column;
+    padding:1%;
+    margin: 4%;
+    text-align: center;
+    background-color: rgb(204, 147, 62);
+    box-shadow: black 1px 1px 5px;
+}
+.photoside4 img{
+    width: 100px;
+    height: 100px;
+    border: solid 1px rgb(255, 255, 255);
+    display: flexbox;
+    text-align: center;
+    border-radius: 50%;
+}
+#bgn{
+    display: block;
+    width: 180px;
+    margin: auto
+}
+#bgn button{
+    border: 1px solid black;
+    text-align: center;
+
+}
